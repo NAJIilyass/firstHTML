@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0; /*Pour éliminer le scroll bar*/
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*align-items: flex-start;
+    align-items: flex-end;*/
+    /*align-items: stretch;*/
+    /*height: 100vh; Pour centrer de la page toute entière*/
+    gap: 30px;  /*Gap c'est l'espace entre les 3 élements*/
+    flex-direction: column; /*De 1 à 5*/
+    /*flex-direction: column-reverse; De 5 à 1*/
+    /*flex-direction: row; C'est par défaut*/
+    flex-direction: row-reverse;
+    flex-wrap: wrap; /*Utiliser nowrap pour connaitre la différence, c'est utiliser aussi en YouTube*/
+    
+}
+
+.flex-container img{
+    width: 200px;
+}
